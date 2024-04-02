@@ -1,0 +1,22 @@
+{
+  "name": "abdulmoiz001-cli-atm",
+  "version": "1.0.0",
+  "description": "CLI-ATM\" stands for Command Line Interface Automated Teller Machine. It refers to a virtual or software-based ATM system that can be operated through a command line interface (CLI) rather than a graphical user interface (GUI).",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
